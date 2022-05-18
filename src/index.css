@@ -3,10 +3,3 @@
 @tailwind components;
 
 @tailwind utilities;
-
-@layer utilities {
-  .section {
-    background: red;
-    height: 100vh;
-  }
-}
