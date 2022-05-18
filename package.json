@@ -1,16 +1,15 @@
 {
   "name": "tailwind_course",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tailwind course by Isiaka Abdulahi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "tailwind build src/index.css -o dist/index.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "dotenv": "^16.0.1"
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
   }
 }
